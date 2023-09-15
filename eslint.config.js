@@ -15,10 +15,10 @@ export default [
       parser: tsParser,
     },
     plugins: {
-      "react-hooks": reactHooks,
-      "react-refresh": reactRefresh,
       "@typescript-eslint": tsPlugin,
       perfectionist,
+      "react-hooks": reactHooks,
+      "react-refresh": reactRefresh,
     },
     rules: {
       ...js.configs.recommended.rules,
